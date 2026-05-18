@@ -29,8 +29,7 @@ calculator/
 ├── style.css    — dark theme, grid layout, hover effects
 ├── script.js    — calculator logic and state
 ├── README.md
-└── context/
-    └── features-specs/   — feature specification files
+
 ```
 
 ## Usage
@@ -43,12 +42,3 @@ The display has two lines:
 
 - **Top (dim)** — shows the expression being built, e.g. `5 × 3 =`
 - **Bottom (large)** — shows the current value or result
-
-### Example flows
-
-| Input | Expression | Result |
-|-------|-----------|--------|
-| `5` `+` `3` `=` | `5 + 3 =` | `8` |
-| `1.5` `+` `2.5` `=` | `1.5 + 2.5 =` | `4` |
-| `5` `/` `0` `=` | — | `Error` |
-| `C` | — | `0` |
